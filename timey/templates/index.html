@@ -1,0 +1,22 @@
+{% extends 'layouts/layout.html' %}
+{% block content %}
+    <div class="jumbotron">
+        <h3>Welcome to a new way to take notes</h3>
+        <p>Meeting time's are important. Timey helps you keep track of it.</p>
+        <div class="row">
+            <div class="col-xs-8">
+                <ul class="list-group">
+                    <li class="list-group-item">All your notes, in one convenient place</li>
+                    <li class="list-group-item">Accurate record of meetings, down to the second a note is recorded</li>
+                    <li class="list-group-item">Set a timer for your meetings and allow Timey to record what was said and when</li>
+                    <li class="list-group-item">Access your notes when you need them most</li>
+                    <li class="list-group-item">Create Scrum Masters, Product Owners and Development Team members users</li>
+                </ul>
+            </div>
+            <div class="col-xs-4">
+                <h4 class="h4">Ready to start making Notes?</h4>
+                <a class="btn btn-default" href="{% url 'make_note' %}" role="button">Make a note</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

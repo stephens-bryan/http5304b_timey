@@ -1,0 +1,24 @@
+.hidden {
+    position: absolute;
+    left: -10000px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  line-height: 60px;
+  background-color: #eee;
+}
+
+.space {
+    padding: 1%;
+}
+
+/* home icon ==> change default link color to black */
+#homeIcon {
+    color: #000000;
+}
+
+
